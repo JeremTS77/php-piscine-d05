@@ -4,4 +4,4 @@ SELECT nom FROM distrib
 	   		 OR id_distrib = 71
 			 OR (id_distrib < 91 AND id_distrib > 87)
 			 OR nom LIKE '%y%y%')
-	   LIMIT 2, 5;
+	   LIMIT 3, 5;
